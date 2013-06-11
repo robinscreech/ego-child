@@ -1,0 +1,7 @@
+git checkout -b BazDel-master master
+
+git pull https://github.com/BazDel/ego-child-1.git master
+
+git checkout master
+git merge BazDel-master
+git push origin master
